@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- GOOGLE FONT -->
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>js-biglietto-treno-form</title>
+</head>
+
+<body>
+
+
+    <header id="site_header">
+        <div class="container text-center p-5">
+            <h2 class="text-uppercase text-white">calcola il prezzo del tuo biglietto</h2>
+            <div class="my_card bg-white shadow p-3 mb-5 bg-body rounded">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h5>Nome Cognome</h5>
+                            <input type="text" class="form-control text-center" id="name" placeholder="Inserire nome">
+                        </div>
+                        <!-- /.col -->
+                        <div class="col">
+                            <h5>Km da percorrere</h5>
+                            <input type="text" class="form-control text-center" id="km" placeholder="Inserire km">
+                        </div>
+                        <!-- /.col -->
+                        <div class="col">
+                            <h5>Fascia d'età</h5>
+                            <select class="form-select" aria-label="Default select example">
+                                <option value="1">Minorenne</option>
+                                <option value="2">Maggiorenne sotto i 65 anni</option>
+                                <option value="3">sopra 65 anni</option>
+                              </select> 
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    <!-- /.row -->
+                    <button id="invia" class="my_btn rounded">Genera</button>
+                    <button class="my_btn rounded">Annulla</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /#site_header -->
+    <main id="site_main"></main>
+    <!-- /#site_main -->
+
+
+
+    <!-- BOOTSTRAP -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

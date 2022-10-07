@@ -1,0 +1,39 @@
+/* #region Common Rules */
+:root{
+    --clr-primary: #B91450;
+    --clr-secondary-light: #CCCCCC;
+    --clr-secondary: #808080;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: var(--clr-primary);
+}
+/* #endregion Common Rules */
+
+/* #region Header */
+.my_card{
+    color: var(--clr-primary);
+}
+.my_btn{
+background-color: var(--clr-secondary-light);
+color: var(--clr-primary);
+display: inline-block;
+font-weight: bold;
+padding: 0.25rem;
+border: 1px solid var(--clr-secondary);
+}
+.my_btn:hover{
+
+}
+
+/* #endregion Header */
