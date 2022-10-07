@@ -22,11 +22,11 @@
 
 
     <header id="site_header">
-        <div class="container text-center p-5">
-            <h2 class="text-uppercase text-white">calcola il prezzo del tuo biglietto</h2>
-            <div class="my_card bg-white shadow p-3 mb-5 bg-body rounded">
+        <div class="container text-center pt-4">
+            <h2 class="text-uppercase text-white mb-4">calcola il prezzo del tuo biglietto</h2>
+            <div class="my_card bg-white shadow p-3 mb-5 rounded">
                 <div class="container">
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col">
                             <h5>Nome Cognome</h5>
                             <input type="text" class="form-control text-center" id="name" placeholder="Inserire nome">
@@ -43,19 +43,57 @@
                                 <option value="1">Minorenne</option>
                                 <option value="2">Maggiorenne sotto i 65 anni</option>
                                 <option value="3">sopra 65 anni</option>
-                              </select> 
+                            </select>
                         </div>
                         <!-- /.col -->
                     </div>
                     <!-- /.row -->
                     <button id="invia" class="my_btn rounded">Genera</button>
-                    <button class="my_btn rounded">Annulla</button>
+                    <button id="cancella" class="my_btn rounded">Annulla</button>
                 </div>
             </div>
         </div>
     </header>
     <!-- /#site_header -->
-    <main id="site_main"></main>
+    <main id="site_main">
+        <div class="container text-center">
+            <h2 class="text-uppercase text-white mb-4">il tuo biglietto</h2>
+
+            <div class="my_hidden_card bg-white shadow p-3 mb-5 text-start ">
+                <h6 class="text-uppercase">dettaglio passeggeri</h6>
+                <hr class="m-0">
+                <div class="row">
+                    <div class="col-3 bg_secondary">
+                        <h4 class="text-uppercase">nome passeggero</h4>
+                        <p class="nome_passeggero fw-bold"></p>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col">
+                                <h5>Offerta</h5>
+                                <p class="offerta"></p>
+                            </div>
+                            <div class="col">
+                                <h5>Carrozza</h5>
+                                <p class="carrozza"></p>
+                            </div>
+                            <div class="col">
+                                <h5>Codice CP</h5>
+                                <p class="codice"></p>
+                            </div>
+                            <div class="col">
+                                <h5>Costo Biglietto</h5>
+                                <p class="costo"></p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <hr class="m-0">
+
+            </div>
+        </div>
+    </main>
     <!-- /#site_main -->
 
 
