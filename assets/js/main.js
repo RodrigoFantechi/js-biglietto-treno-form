@@ -8,7 +8,7 @@ let userAge;
 button.addEventListener('click', function () {
     const card =document.querySelector('main');
     card.style.display = 'block';
-
+    button.disabled = 'true';
 
     userName = document.querySelector('#name').value;
 
@@ -52,15 +52,15 @@ button.addEventListener('click', function () {
 });
 
 buttonDelete.addEventListener('click', function(){
-    const card =document.querySelector('main');
-    card.style.display = 'none';  
-    userName ='';
-    document.querySelector('#name').value ='';
-    userAge = 1;
-    document.querySelector('.form-select').value =1;
-    km =0;
-    document.querySelector('#km').value ='';
-
+    // const card =document.querySelector('main');
+    // card.style.display = 'none';  
+    // userName ='';
+    // document.querySelector('#name').value ='';
+    // userAge = 1;
+    // document.querySelector('.form-select').value =1;
+    // km =0;
+    // document.querySelector('#km').value ='';
+    window.location.reload();
 });
 
 

@@ -41,4 +41,8 @@ main{
     background-color: var(--clr-secondary);
 }
 
+.form-control,.form-select{
+    border-color: var(--clr-primary);
+}
+
 /* #endregion Header */
