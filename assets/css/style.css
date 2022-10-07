@@ -31,9 +31,14 @@ display: inline-block;
 font-weight: bold;
 padding: 0.25rem;
 border: 1px solid var(--clr-secondary);
+margin: 0 0.5rem;
 }
-.my_btn:hover{
+main{
+    display: none;
+}
 
+.bg_secondary{
+    background-color: var(--clr-secondary);
 }
 
 /* #endregion Header */
