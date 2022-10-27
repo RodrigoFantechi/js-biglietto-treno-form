@@ -6,6 +6,7 @@ let km;
 let userAge;
 
 button.addEventListener('click', function () {
+
     const card =document.querySelector('main');
     card.style.display = 'block';
     button.disabled = 'true';
@@ -62,9 +63,3 @@ buttonDelete.addEventListener('click', function(){
     // document.querySelector('#km').value ='';
     window.location.reload();
 });
-
-
-
-
-
-
